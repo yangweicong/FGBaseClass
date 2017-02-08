@@ -1,8 +1,8 @@
 Pod::Spec.new do |s|
 
   s.name         = "FGBaseClass"
-  s.version      = "1.0.0"
-  s.summary      = "Contacts wrapper for iOS 9 or upper with Objective-C"
+  s.version      = "1.0.1"
+  s.summary      = "火鹰科技常用基类"
   s.homepage     = "https://github.com/yangweicong/FGBaseClass"
   
   s.license      = { 
