@@ -8,6 +8,12 @@
 
 #import <WMPageController/WMPageController.h>
 
+#if __has_include(<WMPageController/WMPageController.h>)
+#import <WMPageController/WMPageController.h>
+#else
+#import "WMPageController.h"
+#endif
+
 #if __has_include(<EasyNavigation/EasyNavigation.h>)
 #import <EasyNavigation/EasyNavigation.h>
 #else
