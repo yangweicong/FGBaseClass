@@ -22,6 +22,12 @@ Pod::Spec.new do |s|
   s.source_files        = 'FGBaseClass/*.{h,m}'
   s.requires_arc        = true
   s.framework  = "UIKit"
-  s.dependency "TPKeyboardAvoiding","Masonry","MJRefresh","JKCategories","EasyNavigation","WMPageController","UITableView+FDTemplateLayoutCell"
+  s.dependency "TPKeyboardAvoiding"
+  s.dependency "Masonry"
+  s.dependency "MJRefresh"
+  s.dependency "JKCategories"
+  s.dependency "EasyNavigation"
+  s.dependency "WMPageController"
+  s.dependency "UITableView+FDTemplateLayoutCell"
 
 end
