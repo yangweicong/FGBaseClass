@@ -7,7 +7,18 @@
 //
 
 #import <UIKit/UIKit.h>
+
+#if __has_include(<TPKeyboardAvoidingScrollView.h>)
 #import <TPKeyboardAvoidingScrollView.h>
+#else
+#import "TPKeyboardAvoidingScrollView.h"
+#endif
+
+#if __has_include(<Masonry>)
+#import <Masonry.h>
+#else
+#import "Masonry.h"
+#endif
 
 @interface FGScrollView : TPKeyboardAvoidingScrollView
 

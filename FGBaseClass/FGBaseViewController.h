@@ -7,10 +7,14 @@
 //
 
 #import <UIKit/UIKit.h>
-#import <EasyNavigation/EasyNavigation.h>
 #import "FGScrollView.h"
-#import <Masonry.h>
 #import "FGUtilsMacro.h"
+
+#if __has_include(<EasyNavigation/EasyNavigation.h>)
+#import <EasyNavigation/EasyNavigation.h>
+#else
+#import "EasyNavigation.h"
+#endif
 
 @interface FGBaseViewController : UIViewController
 

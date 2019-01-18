@@ -7,7 +7,6 @@
 //
 
 #import "FGBaseViewController.h"
-#import <JKCategories/UIView+JKFind.h>
 #import "FGBaseNavigationController.h"
 
 @interface FGBaseViewController ()

@@ -7,7 +7,12 @@
 //
 
 #import <UIKit/UIKit.h>
+
+#if __has_include(<EasyNavigation/EasyNavigation.h>)
 #import <EasyNavigation/EasyNavigation.h>
+#else
+#import "EasyNavigation.h"
+#endif
 
 @interface FGBaseNavigationController : EasyNavigationController
 

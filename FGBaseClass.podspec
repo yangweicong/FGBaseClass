@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
 
   s.name         = "FGBaseClass"
-  s.version      = "1.0.2"
+  s.version      = "1.0.3"
   s.summary      = "火鹰科技常用基类"
   s.homepage     = "https://github.com/yangweicong/FGBaseClass"
   

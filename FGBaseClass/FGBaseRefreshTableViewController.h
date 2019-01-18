@@ -7,8 +7,18 @@
 //
 
 #import "FGBaseViewController.h"
+
+#if __has_include(<MJRefresh.h>)
 #import <MJRefresh.h>
+#else
+#import "MJRefresh.h"
+#endif
+
+#if __has_include(<UITableView+FDTemplateLayoutCell.h>)
 #import <UITableView+FDTemplateLayoutCell.h>
+#else
+#import "UITableView+FDTemplateLayoutCell.h"
+#endif
 
 @class FGBaseTableViewCell;
 /**

@@ -8,7 +8,12 @@
 
 #import "FGBaseViewController.h"
 #import "FGBaseCollectionViewCell.h"
+
+#if __has_include(<MJRefresh.h>)
 #import <MJRefresh.h>
+#else
+#import "MJRefresh.h"
+#endif
 
 @interface FGBaseRefreshCollectionViewController : FGBaseViewController<UICollectionViewDelegate, UICollectionViewDataSource>
 
