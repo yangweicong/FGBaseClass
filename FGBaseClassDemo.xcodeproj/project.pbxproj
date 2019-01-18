@@ -7,48 +7,50 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		071F454821F1ACC00034CC7E /* FGBaseCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 071F453A21F1ACBF0034CC7E /* FGBaseCollectionViewCell.m */; };
-		071F454921F1ACC00034CC7E /* FGBaseTouchView.m in Sources */ = {isa = PBXBuildFile; fileRef = 071F453B21F1ACBF0034CC7E /* FGBaseTouchView.m */; };
-		071F454A21F1ACC00034CC7E /* FGBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 071F453C21F1ACBF0034CC7E /* FGBaseViewController.m */; };
-		071F454B21F1ACC00034CC7E /* FGRefreshHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = 071F453E21F1ACBF0034CC7E /* FGRefreshHeader.m */; };
-		071F454C21F1ACC00034CC7E /* FGPageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 071F453F21F1ACBF0034CC7E /* FGPageViewController.m */; };
-		071F454D21F1ACC00034CC7E /* FGBaseRefreshTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 071F454021F1ACBF0034CC7E /* FGBaseRefreshTableViewController.m */; };
-		071F454E21F1ACC00034CC7E /* FGBaseRefreshCollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 071F454121F1ACC00034CC7E /* FGBaseRefreshCollectionViewController.m */; };
-		071F454F21F1ACC00034CC7E /* FGBaseNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 071F454421F1ACC00034CC7E /* FGBaseNavigationController.m */; };
-		071F455021F1ACC00034CC7E /* FGBaseView.m in Sources */ = {isa = PBXBuildFile; fileRef = 071F454521F1ACC00034CC7E /* FGBaseView.m */; };
-		071F455121F1ACC00034CC7E /* FGScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 071F454721F1ACC00034CC7E /* FGScrollView.m */; };
+		071F456B21F1C0430034CC7E /* FGBaseCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 071F455421F1C0430034CC7E /* FGBaseCollectionViewCell.m */; };
+		071F456C21F1C0430034CC7E /* FGBaseNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 071F455521F1C0430034CC7E /* FGBaseNavigationController.m */; };
+		071F456D21F1C0430034CC7E /* FGBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 071F455621F1C0430034CC7E /* FGBaseViewController.m */; };
+		071F456E21F1C0430034CC7E /* FGBaseRefreshTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 071F455721F1C0430034CC7E /* FGBaseRefreshTableViewController.m */; };
+		071F456F21F1C0430034CC7E /* FGBaseRefreshCollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 071F455A21F1C0430034CC7E /* FGBaseRefreshCollectionViewController.m */; };
+		071F457021F1C0430034CC7E /* FGScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 071F455B21F1C0430034CC7E /* FGScrollView.m */; };
+		071F457121F1C0430034CC7E /* FGPageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 071F455C21F1C0430034CC7E /* FGPageViewController.m */; };
+		071F457221F1C0430034CC7E /* FGBaseTouchView.m in Sources */ = {isa = PBXBuildFile; fileRef = 071F456321F1C0430034CC7E /* FGBaseTouchView.m */; };
+		071F457321F1C0430034CC7E /* FGBaseTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 071F456721F1C0430034CC7E /* FGBaseTableViewCell.m */; };
+		071F457421F1C0430034CC7E /* FGBaseView.m in Sources */ = {isa = PBXBuildFile; fileRef = 071F456921F1C0430034CC7E /* FGBaseView.m */; };
+		071F457521F1C0430034CC7E /* FGRefreshHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = 071F456A21F1C0430034CC7E /* FGRefreshHeader.m */; };
 		077439E91E4B055A00EE5632 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 077439E81E4B055A00EE5632 /* main.m */; };
 		077439EC1E4B055A00EE5632 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 077439EB1E4B055A00EE5632 /* AppDelegate.m */; };
 		077439EF1E4B055A00EE5632 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 077439EE1E4B055A00EE5632 /* ViewController.m */; };
 		077439F21E4B055A00EE5632 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 077439F01E4B055A00EE5632 /* Main.storyboard */; };
 		077439F41E4B055A00EE5632 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 077439F31E4B055A00EE5632 /* Assets.xcassets */; };
 		077439F71E4B055A00EE5632 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 077439F51E4B055A00EE5632 /* LaunchScreen.storyboard */; };
-		07743A0F1E4B058300EE5632 /* FGBaseTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 07743A091E4B058300EE5632 /* FGBaseTableViewCell.m */; };
 		A16165B13FDE76AC413C5DC7 /* libPods-FGBaseClassDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 07A9884F2437BA630494FCB2 /* libPods-FGBaseClassDemo.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		071F453421F1ACBF0034CC7E /* FGBaseCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FGBaseCollectionViewCell.h; sourceTree = "<group>"; };
-		071F453521F1ACBF0034CC7E /* FGBaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FGBaseViewController.h; sourceTree = "<group>"; };
-		071F453621F1ACBF0034CC7E /* FGRefreshHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FGRefreshHeader.h; sourceTree = "<group>"; };
-		071F453721F1ACBF0034CC7E /* FGBaseRefreshTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FGBaseRefreshTableViewController.h; sourceTree = "<group>"; };
-		071F453821F1ACBF0034CC7E /* FGPageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FGPageViewController.h; sourceTree = "<group>"; };
-		071F453921F1ACBF0034CC7E /* FGBaseView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FGBaseView.h; sourceTree = "<group>"; };
-		071F453A21F1ACBF0034CC7E /* FGBaseCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FGBaseCollectionViewCell.m; sourceTree = "<group>"; };
-		071F453B21F1ACBF0034CC7E /* FGBaseTouchView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FGBaseTouchView.m; sourceTree = "<group>"; };
-		071F453C21F1ACBF0034CC7E /* FGBaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FGBaseViewController.m; sourceTree = "<group>"; };
-		071F453D21F1ACBF0034CC7E /* FGBaseRefreshCollectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FGBaseRefreshCollectionViewController.h; sourceTree = "<group>"; };
-		071F453E21F1ACBF0034CC7E /* FGRefreshHeader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FGRefreshHeader.m; sourceTree = "<group>"; };
-		071F453F21F1ACBF0034CC7E /* FGPageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FGPageViewController.m; sourceTree = "<group>"; };
-		071F454021F1ACBF0034CC7E /* FGBaseRefreshTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FGBaseRefreshTableViewController.m; sourceTree = "<group>"; };
-		071F454121F1ACC00034CC7E /* FGBaseRefreshCollectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FGBaseRefreshCollectionViewController.m; sourceTree = "<group>"; };
-		071F454221F1ACC00034CC7E /* FGBaseTouchView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FGBaseTouchView.h; sourceTree = "<group>"; };
-		071F454321F1ACC00034CC7E /* FGScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FGScrollView.h; sourceTree = "<group>"; };
-		071F454421F1ACC00034CC7E /* FGBaseNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FGBaseNavigationController.m; sourceTree = "<group>"; };
-		071F454521F1ACC00034CC7E /* FGBaseView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FGBaseView.m; sourceTree = "<group>"; };
-		071F454621F1ACC00034CC7E /* FGBaseNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FGBaseNavigationController.h; sourceTree = "<group>"; };
-		071F454721F1ACC00034CC7E /* FGScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FGScrollView.m; sourceTree = "<group>"; };
-		071F455221F1AE880034CC7E /* FGUtilsMacro.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FGUtilsMacro.h; sourceTree = "<group>"; };
+		071F455421F1C0430034CC7E /* FGBaseCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FGBaseCollectionViewCell.m; sourceTree = "<group>"; };
+		071F455521F1C0430034CC7E /* FGBaseNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FGBaseNavigationController.m; sourceTree = "<group>"; };
+		071F455621F1C0430034CC7E /* FGBaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FGBaseViewController.m; sourceTree = "<group>"; };
+		071F455721F1C0430034CC7E /* FGBaseRefreshTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FGBaseRefreshTableViewController.m; sourceTree = "<group>"; };
+		071F455821F1C0430034CC7E /* FGBaseTouchView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FGBaseTouchView.h; sourceTree = "<group>"; };
+		071F455921F1C0430034CC7E /* FGBaseTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FGBaseTableViewCell.h; sourceTree = "<group>"; };
+		071F455A21F1C0430034CC7E /* FGBaseRefreshCollectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FGBaseRefreshCollectionViewController.m; sourceTree = "<group>"; };
+		071F455B21F1C0430034CC7E /* FGScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FGScrollView.m; sourceTree = "<group>"; };
+		071F455C21F1C0430034CC7E /* FGPageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FGPageViewController.m; sourceTree = "<group>"; };
+		071F455D21F1C0430034CC7E /* FGRefreshHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FGRefreshHeader.h; sourceTree = "<group>"; };
+		071F455E21F1C0430034CC7E /* FGBaseView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FGBaseView.h; sourceTree = "<group>"; };
+		071F455F21F1C0430034CC7E /* FGBaseRefreshTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FGBaseRefreshTableViewController.h; sourceTree = "<group>"; };
+		071F456021F1C0430034CC7E /* FGBaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FGBaseViewController.h; sourceTree = "<group>"; };
+		071F456121F1C0430034CC7E /* FGBaseNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FGBaseNavigationController.h; sourceTree = "<group>"; };
+		071F456221F1C0430034CC7E /* FGBaseCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FGBaseCollectionViewCell.h; sourceTree = "<group>"; };
+		071F456321F1C0430034CC7E /* FGBaseTouchView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FGBaseTouchView.m; sourceTree = "<group>"; };
+		071F456421F1C0430034CC7E /* FGPageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FGPageViewController.h; sourceTree = "<group>"; };
+		071F456521F1C0430034CC7E /* FGScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FGScrollView.h; sourceTree = "<group>"; };
+		071F456621F1C0430034CC7E /* FGBaseRefreshCollectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FGBaseRefreshCollectionViewController.h; sourceTree = "<group>"; };
+		071F456721F1C0430034CC7E /* FGBaseTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FGBaseTableViewCell.m; sourceTree = "<group>"; };
+		071F456821F1C0430034CC7E /* FGUtilsMacro.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FGUtilsMacro.h; sourceTree = "<group>"; };
+		071F456921F1C0430034CC7E /* FGBaseView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FGBaseView.m; sourceTree = "<group>"; };
+		071F456A21F1C0430034CC7E /* FGRefreshHeader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FGRefreshHeader.m; sourceTree = "<group>"; };
 		077439E41E4B055A00EE5632 /* FGBaseClassDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FGBaseClassDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		077439E81E4B055A00EE5632 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		077439EA1E4B055A00EE5632 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -59,8 +61,6 @@
 		077439F31E4B055A00EE5632 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		077439F61E4B055A00EE5632 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		077439F81E4B055A00EE5632 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		07743A081E4B058300EE5632 /* FGBaseTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FGBaseTableViewCell.h; sourceTree = "<group>"; };
-		07743A091E4B058300EE5632 /* FGBaseTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FGBaseTableViewCell.m; sourceTree = "<group>"; };
 		07A9884F2437BA630494FCB2 /* libPods-FGBaseClassDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-FGBaseClassDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		402718A63372DE2AB2EDEDC3 /* Pods-FGBaseClassDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FGBaseClassDemo.debug.xcconfig"; path = "Target Support Files/Pods-FGBaseClassDemo/Pods-FGBaseClassDemo.debug.xcconfig"; sourceTree = "<group>"; };
 		BB4AC51FF43B4483BC37556B /* Pods-FGBaseClassDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FGBaseClassDemo.release.xcconfig"; path = "Target Support Files/Pods-FGBaseClassDemo/Pods-FGBaseClassDemo.release.xcconfig"; sourceTree = "<group>"; };
@@ -78,6 +78,36 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		071F455321F1C0430034CC7E /* FGBaseClass */ = {
+			isa = PBXGroup;
+			children = (
+				071F455421F1C0430034CC7E /* FGBaseCollectionViewCell.m */,
+				071F455521F1C0430034CC7E /* FGBaseNavigationController.m */,
+				071F455621F1C0430034CC7E /* FGBaseViewController.m */,
+				071F455721F1C0430034CC7E /* FGBaseRefreshTableViewController.m */,
+				071F455821F1C0430034CC7E /* FGBaseTouchView.h */,
+				071F455921F1C0430034CC7E /* FGBaseTableViewCell.h */,
+				071F455A21F1C0430034CC7E /* FGBaseRefreshCollectionViewController.m */,
+				071F455B21F1C0430034CC7E /* FGScrollView.m */,
+				071F455C21F1C0430034CC7E /* FGPageViewController.m */,
+				071F455D21F1C0430034CC7E /* FGRefreshHeader.h */,
+				071F455E21F1C0430034CC7E /* FGBaseView.h */,
+				071F455F21F1C0430034CC7E /* FGBaseRefreshTableViewController.h */,
+				071F456021F1C0430034CC7E /* FGBaseViewController.h */,
+				071F456121F1C0430034CC7E /* FGBaseNavigationController.h */,
+				071F456221F1C0430034CC7E /* FGBaseCollectionViewCell.h */,
+				071F456321F1C0430034CC7E /* FGBaseTouchView.m */,
+				071F456421F1C0430034CC7E /* FGPageViewController.h */,
+				071F456521F1C0430034CC7E /* FGScrollView.h */,
+				071F456621F1C0430034CC7E /* FGBaseRefreshCollectionViewController.h */,
+				071F456721F1C0430034CC7E /* FGBaseTableViewCell.m */,
+				071F456821F1C0430034CC7E /* FGUtilsMacro.h */,
+				071F456921F1C0430034CC7E /* FGBaseView.m */,
+				071F456A21F1C0430034CC7E /* FGRefreshHeader.m */,
+			);
+			path = FGBaseClass;
+			sourceTree = SOURCE_ROOT;
+		};
 		077439DB1E4B055A00EE5632 = {
 			isa = PBXGroup;
 			children = (
@@ -99,7 +129,7 @@
 		077439E61E4B055A00EE5632 /* FGBaseClassDemo */ = {
 			isa = PBXGroup;
 			children = (
-				077439FE1E4B058300EE5632 /* FGBaseClass */,
+				071F455321F1C0430034CC7E /* FGBaseClass */,
 				077439EA1E4B055A00EE5632 /* AppDelegate.h */,
 				077439EB1E4B055A00EE5632 /* AppDelegate.m */,
 				077439ED1E4B055A00EE5632 /* ViewController.h */,
@@ -119,37 +149,6 @@
 				077439E81E4B055A00EE5632 /* main.m */,
 			);
 			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		077439FE1E4B058300EE5632 /* FGBaseClass */ = {
-			isa = PBXGroup;
-			children = (
-				071F455221F1AE880034CC7E /* FGUtilsMacro.h */,
-				071F453421F1ACBF0034CC7E /* FGBaseCollectionViewCell.h */,
-				071F453A21F1ACBF0034CC7E /* FGBaseCollectionViewCell.m */,
-				071F454621F1ACC00034CC7E /* FGBaseNavigationController.h */,
-				071F454421F1ACC00034CC7E /* FGBaseNavigationController.m */,
-				071F453D21F1ACBF0034CC7E /* FGBaseRefreshCollectionViewController.h */,
-				071F454121F1ACC00034CC7E /* FGBaseRefreshCollectionViewController.m */,
-				071F453721F1ACBF0034CC7E /* FGBaseRefreshTableViewController.h */,
-				071F454021F1ACBF0034CC7E /* FGBaseRefreshTableViewController.m */,
-				071F454221F1ACC00034CC7E /* FGBaseTouchView.h */,
-				071F453B21F1ACBF0034CC7E /* FGBaseTouchView.m */,
-				071F453921F1ACBF0034CC7E /* FGBaseView.h */,
-				071F454521F1ACC00034CC7E /* FGBaseView.m */,
-				071F453521F1ACBF0034CC7E /* FGBaseViewController.h */,
-				071F453C21F1ACBF0034CC7E /* FGBaseViewController.m */,
-				071F453821F1ACBF0034CC7E /* FGPageViewController.h */,
-				071F453F21F1ACBF0034CC7E /* FGPageViewController.m */,
-				071F453621F1ACBF0034CC7E /* FGRefreshHeader.h */,
-				071F453E21F1ACBF0034CC7E /* FGRefreshHeader.m */,
-				071F454321F1ACC00034CC7E /* FGScrollView.h */,
-				071F454721F1ACC00034CC7E /* FGScrollView.m */,
-				07743A081E4B058300EE5632 /* FGBaseTableViewCell.h */,
-				07743A091E4B058300EE5632 /* FGBaseTableViewCell.m */,
-			);
-			name = FGBaseClass;
-			path = ../../FGBaseClass;
 			sourceTree = "<group>";
 		};
 		3F81F7B9CD8BA966EFCB1196 /* Pods */ = {
@@ -291,20 +290,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				071F456D21F1C0430034CC7E /* FGBaseViewController.m in Sources */,
+				071F456B21F1C0430034CC7E /* FGBaseCollectionViewCell.m in Sources */,
+				071F456C21F1C0430034CC7E /* FGBaseNavigationController.m in Sources */,
+				071F457321F1C0430034CC7E /* FGBaseTableViewCell.m in Sources */,
 				077439EF1E4B055A00EE5632 /* ViewController.m in Sources */,
-				071F454B21F1ACC00034CC7E /* FGRefreshHeader.m in Sources */,
+				071F457421F1C0430034CC7E /* FGBaseView.m in Sources */,
+				071F456F21F1C0430034CC7E /* FGBaseRefreshCollectionViewController.m in Sources */,
+				071F457521F1C0430034CC7E /* FGRefreshHeader.m in Sources */,
 				077439EC1E4B055A00EE5632 /* AppDelegate.m in Sources */,
-				071F454D21F1ACC00034CC7E /* FGBaseRefreshTableViewController.m in Sources */,
-				071F455121F1ACC00034CC7E /* FGScrollView.m in Sources */,
-				071F454921F1ACC00034CC7E /* FGBaseTouchView.m in Sources */,
-				071F455021F1ACC00034CC7E /* FGBaseView.m in Sources */,
-				07743A0F1E4B058300EE5632 /* FGBaseTableViewCell.m in Sources */,
+				071F457021F1C0430034CC7E /* FGScrollView.m in Sources */,
 				077439E91E4B055A00EE5632 /* main.m in Sources */,
-				071F454F21F1ACC00034CC7E /* FGBaseNavigationController.m in Sources */,
-				071F454E21F1ACC00034CC7E /* FGBaseRefreshCollectionViewController.m in Sources */,
-				071F454821F1ACC00034CC7E /* FGBaseCollectionViewCell.m in Sources */,
-				071F454A21F1ACC00034CC7E /* FGBaseViewController.m in Sources */,
-				071F454C21F1ACC00034CC7E /* FGPageViewController.m in Sources */,
+				071F457221F1C0430034CC7E /* FGBaseTouchView.m in Sources */,
+				071F457121F1C0430034CC7E /* FGPageViewController.m in Sources */,
+				071F456E21F1C0430034CC7E /* FGBaseRefreshTableViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
