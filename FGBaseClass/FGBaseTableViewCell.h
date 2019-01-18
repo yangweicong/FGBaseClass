@@ -1,9 +1,9 @@
 //
-//  ICBaseTableViewCell.h
-//  ichezhidao
+//  FGBaseTableViewCell.h
+//  shopex
 //
-//  Created by qiuxiaofeng on 16/7/7.
-//  Copyright © 2016年 figo. All rights reserved.
+//  Created by qiuxiaofeng on 17/3/27.
+//  Copyright © 2017年 figo. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>
@@ -12,6 +12,6 @@
 
 - (void)setupViews;
 - (void)setupLayout;
-- (void)configCellWithModel:(id)model;
+- (void)configWithModel:(id)model;
 
 @end

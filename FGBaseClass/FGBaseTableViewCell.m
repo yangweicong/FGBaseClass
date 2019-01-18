@@ -1,9 +1,9 @@
 //
-//  ICBaseTableViewCell.m
-//  ichezhidao
+//  FGBaseTableViewCell.m
+//  shopex
 //
-//  Created by qiuxiaofeng on 16/7/7.
-//  Copyright © 2016年 figo. All rights reserved.
+//  Created by qiuxiaofeng on 17/3/27.
+//  Copyright © 2017年 figo. All rights reserved.
 //
 
 #import "FGBaseTableViewCell.h"
@@ -32,9 +32,15 @@
     
 }
 
-- (void)configCellWithModel:(id)model
+- (void)configWithModel:(id)model
 {
     
+}
+
+- (void)setSelected:(BOOL)selected animated:(BOOL)animated {
+    [super setSelected:selected animated:animated];
+
+    // Configure the view for the selected state
 }
 
 @end

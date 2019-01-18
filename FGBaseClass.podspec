@@ -18,9 +18,10 @@ Pod::Spec.new do |s|
         :tag => s.version.to_s
     }
 #  s.ios.deployment_target = '9.0'
-  s.platform     = :ios, '8.0'
-  s.source_files        = 'FGBaseClass'
+  s.platform     = :ios, '9.0'
+  s.source_files        = 'FGBaseClass/*.{h,m}'
   s.requires_arc        = true
   s.framework  = "UIKit"
+  s.dependency "TPKeyboardAvoiding","Masonry","MJRefresh","JKCategories","EasyNavigation","WMPageController","UITableView+FDTemplateLayoutCell"
 
 end
